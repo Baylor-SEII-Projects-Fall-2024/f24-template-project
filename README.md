@@ -58,9 +58,10 @@ This `README.md` file will serve as a general setup guide for the project. In ad
 [(back to top)](#table-of-contents)
 
 1. Install **Visual Studio Code**: https://code.visualstudio.com/download
-2. Install **Node.js** version 20: https://nodejs.org/en
-   - Just like the backend, installing a version higher than 20 (like 21) will likely still work, but since the template project is configured using Node 20, it is recommeneded sticking with that
-   - If you anticipate yourself needing to swap between different Node version often or wanting an easy way to update Node versions, you could instead use [`nvm`](https://github.com/nvm-sh/nvm) or [`nvm-windows`](https://github.com/coreybutler/nvm-windows) to install Node
+2. Install **Node.js** version **20**:
+   - Just like the backend, installing a version higher than 20 (like 22) will likely still work, but since the template project is configured using Node 20, it is recommeneded sticking with that
+   - If you anticipate yourself needing to swap between different Node version often or wanting an easy way to update Node versions, we recommend using [`nvm`](https://github.com/nvm-sh/nvm) or [`nvm-windows`](https://github.com/coreybutler/nvm-windows) to install Node
+   - Otherwise, you can download Node 20 directly from the Node.js website: https://nodejs.org/en/download/
 3. Install **Yarn**: run `corepack enable`
    - If this command doesn't work, you could try `npm install -g yarn` instead
    - Verify Yarn is installed with `yarn -v`
